@@ -1,10 +1,4 @@
 FROM beangoben/pimp_jupyter
-USER root
-RUN ln -snf /bin/bash /bin/sh
-
-RUN apt-get update && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
 
 USER jovyan
 
