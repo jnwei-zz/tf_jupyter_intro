@@ -1,8 +1,7 @@
-FROM beangoben/pimp_jupyter
+FROM jupyter/tensorflow-notebook
 
 USER jovyan
 
-RUN conda install --quiet --yes -c conda-forge tensorflow=0.10.0
 # can turn on later for rdkit
 #RUN conda install -n python2 -c rdkit rdkit=2016.03.3 --quiet --yes
 COPY data/ /home/jovyan/work/data
