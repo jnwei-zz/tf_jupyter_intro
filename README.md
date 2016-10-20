@@ -8,13 +8,13 @@ This docker and tutorial is a quick introduction to machine learning and tensorf
 2. Pull docker from repository
 
   ```
-  docker pull beangoben/tf_jupyter_intro
+  docker pull jnwei13/tf_jupyter_intro
   ```
 
 3. Run the docker 
 
   ```
-  docker run -p 8888:8888 -it beangoben/tf_jupyter_intro
+  docker run -p 8888:8888 -it jnwei/tf_jupyter_intro
   ```
 
 4. Jupyter notebook should be visible at **localhost/8888** (type that address into a web browser)
